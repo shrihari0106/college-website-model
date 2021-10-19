@@ -1,0 +1,116 @@
+/* Header */
+.myrows{
+    border: 3px solid green;
+    padding: 5px;
+  }
+  .mycols{
+    border: 3px solid red;
+  }
+  .mycontainer{
+    background-color: aqua;
+  }
+  #topHeader{
+    border-bottom: 1px solid #ebebeb;
+  }
+  #topHeader a{
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 0.89rem;
+  }
+  .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  nav ul li a {
+      font-size: 1.1rem;
+      font-weight: 600;
+  }
+
+
+/* body */
+body{
+  background-color: #ffffff;
+}
+p{
+  font-size: large;
+}
+.carousel{
+  box-shadow: 5px 5px 18px #243c4f;;
+}
+.main{
+    padding : 10px 0px;
+    text-align: center;
+}
+.adm-info{
+  text-align: justify;
+}
+.programs .enquiry{
+  padding: 10px;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 20% 20% 60%;
+  grid-column-gap : 10px; 
+}
+.cell{
+    text-align:center;
+    padding:7px;
+    border-right: #243c4f  solid;
+    background-color: white;
+}
+.course{
+  border: #243c4f solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 18px #243c4f;
+}
+.cell-content{
+    padding: 10px;
+    text-align:center;
+    margin: 20px auto;
+}
+.card{
+  padding: 5px;
+  margin-top: 20px;
+}
+
+hr{
+  border : 2px solid #243c4f;
+  border-width: 0.05em;
+  width: 100%;
+}
+#bullets{
+  text-align: justify;
+}
+
+/*  footer */
+.full-footer{
+  background-color: #243c4f;
+}
+.top-footer p{
+  color: white;
+}
+.top-footer a{
+  color: white;
+  font-weight: 600;
+}
+.top-footer h3{
+  color: white;
+  padding-bottom: 5px;
+}
+.top-footer h5{
+    color: white;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.bottom-footer{
+  background-color: #031b2e;
+}
+.bottom-footer p{
+  color: white;
+}
+
+.full-footer hr {
+  border: 0.75px solid white;
+  width: 75%;
+  padding: 0%;
+}

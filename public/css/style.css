@@ -1,0 +1,176 @@
+.myrows{
+  border: 3px solid green;
+  padding: 5px;
+}
+.mycols{
+  border: 3px solid red;
+}
+.mycontainer{
+  background-color: aqua;
+}
+#topHeader{
+  border-bottom: 1px solid #ebebeb;
+}
+#topHeader a{
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 0.89rem;
+}
+
+#hdr {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+nav ul li a {
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+ 
+#marquee {
+    padding: 5px;
+    color: #2c3e50;
+    background-color: #ebebeb;
+    border-width: 3px;
+    border-color: #031b2e;
+}
+body{
+  overflow-x: hidden;
+}
+/* END HEADER */
+
+/* START HOME PAGE BODY */
+
+/* Horizontal rule */
+.bodyhr {
+  border: 1px solid #dee2e6;
+  border-width: 0.05em;
+  width: 100%;
+}
+
+/* Subscribe */
+
+.subscribe {
+  background-color:  #004d80;
+  color: white;
+}
+
+.subscribe .form-control{
+  height: 50px;
+  border-color: transparent;
+  border-radius: 20px 0 0 20px;
+}
+
+.subscribe .btn{
+  min-height: 50px;
+  background: #243c4f;
+  border-radius: 0 20px 20px 0 ;
+  color: white;
+}
+
+/* Cards */
+
+.card {
+  background-color: #ebebeb;
+  border-radius: 0 0 15px 15px;
+  border-width: 3px;
+}
+.event-card{
+  height: 200px;
+}
+
+#alumcards{
+  background-color: #ebebeb;
+  border-radius: 0;
+  border-width: 3px;
+}
+
+.card-header {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.recent-events{
+  /* background-color: #ebebeb; */
+  border-radius: 15px;
+  padding: 15px;
+  border: #ebebeb 2px solid;
+
+}
+
+/* END HOME PAGE BODY */
+
+
+/* SUB-PAGES  -  PAGE TITLE */
+
+#pt {
+  margin: 5px;
+  padding: 10px;
+  color:#004d80;
+  font-style:oblique;  
+  font-size: 28px;
+  font-weight: lighter;
+  font-family: cursive;
+}
+
+/* VIDEOS */
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+
+/* ABOUT AND CONTACT */
+
+.page-header {
+  min-height: 68px;
+  border-bottom: 1px solid #ededed;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+
+.btn-outline-primary
+{
+  color:#004d80;
+}
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .open .dropdown-toggle.btn-outline-primary {
+
+  background-color: #004d80;
+  color:#FFF;
+ }
+ 
+/* START : Footer */
+.full-footer{
+  background-color: #243c4f;
+}
+.top-footer p{
+  color: white;
+}
+.top-footer a{
+  color: white;
+  font-weight: 600;
+}
+.top-footer h3{
+  color: white;
+  padding-bottom: 5px;
+}
+.top-footer h5{
+    color: white;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.bottom-footer{
+  background-color: #031b2e;
+}
+.bottom-footer p{
+  color: white;
+}
+
+.full-footer hr {
+  border: 0.75px solid white;
+  width: 75%;
+  padding: 0%;
+}
+/* END : Footer */
